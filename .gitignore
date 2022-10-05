@@ -1,0 +1,14 @@
+venv
+*.tgz
+*.zip
+.cache
+env
+downloads
+var
+*.whl
+.vscode/
+*.pyc
+.ipynb_checkpoints
+checkpoints
+log
+__pycache__
