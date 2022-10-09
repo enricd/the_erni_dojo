@@ -12,3 +12,6 @@ var
 checkpoints
 log
 __pycache__
+experiments_notebook.ipynb
+/game_plays/*
+!/game_plays/play_0000/
