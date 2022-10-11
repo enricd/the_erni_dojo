@@ -8,7 +8,7 @@ from pathlib import Path
 from agents import clock_turns3_agent as agent
 
 pygame.init()
-font = pygame.font.SysFont("Ariel", 25)
+font = pygame.font.SysFont("Ariel", 35)
 
 # reset
 # reward 
@@ -28,12 +28,25 @@ Point = namedtuple("Point", "x, y")
 
 # rgb colors
 WHITE = (255, 255, 255)
+DARK_THEME_WHITE = (241, 241, 241)
 RED = (200, 0, 0)
+LIGHT_BLUE = (32, 170, 245)
 BLUE1 = (0, 0, 255)
 BLUE2 = (0, 100, 255)
+DARK_BLUE = (5, 5, 15)
 GREEN1 = (0, 150, 0)
 GREEN2 = (0, 255, 0)
+LIGHT_MAGENTA = (232, 15, 136)
+MAGENTA = (175, 1, 113)  #(138, 7, 66)
+LIGHT_ORANGE = (250, 153, 62)
+ORANGE = (232, 99, 5)
+GREY = (23, 32, 48)
+DARK_GREY = (20, 20, 20)
 BLACK = (0, 0, 0)
+
+BACKGROUND_COLOR = DARK_BLUE
+LINES_COLOR = (7, 30, 60)
+
 
 BLOCK_SIZE = 20
 SPEED = 10
@@ -75,7 +88,7 @@ class Snake2PGame:
 
         self.config = {
             "actions": Direction,
-            "max_turns": 50
+            "max_turns": 200
             }
 
         self.turn = 0
@@ -169,24 +182,32 @@ class Snake2PGame:
 
 
     def _update_ui(self):
-        self.display.fill(BLACK)    
+        self.display.fill(BACKGROUND_COLOR)  
 
         for pt in self.snake_1:
-            pygame.draw.rect(self.display, BLUE1, pygame.Rect(pt.x, pt.y, BLOCK_SIZE, BLOCK_SIZE))
-            pygame.draw.rect(self.display, BLUE2, pygame.Rect(pt.x+4, pt.y+4, BLOCK_SIZE-4, BLOCK_SIZE-4))
+            pygame.draw.rect(self.display, BLUE2, pygame.Rect(pt.x, pt.y, BLOCK_SIZE, BLOCK_SIZE))
+            # pygame.draw.rect(self.display, BLUE2, pygame.Rect(pt.x+4, pt.y+4, BLOCK_SIZE-4, BLOCK_SIZE-4))
 
         for pt in self.snake_2:
-            pygame.draw.rect(self.display, GREEN1, pygame.Rect(pt.x, pt.y, BLOCK_SIZE, BLOCK_SIZE))
-            pygame.draw.rect(self.display, GREEN2, pygame.Rect(pt.x+4, pt.y+4, BLOCK_SIZE-4, BLOCK_SIZE-4))
+            pygame.draw.rect(self.display, MAGENTA, pygame.Rect(pt.x, pt.y, BLOCK_SIZE, BLOCK_SIZE))
+            # pygame.draw.rect(self.display, GREEN2, pygame.Rect(pt.x+4, pt.y+4, BLOCK_SIZE-4, BLOCK_SIZE-4))
 
-        pygame.draw.rect(self.display, RED, pygame.Rect(self.food.x, self.food.y, BLOCK_SIZE, BLOCK_SIZE))
+        pygame.draw.rect(self.display, ORANGE, pygame.Rect(self.food.x, self.food.y, BLOCK_SIZE, BLOCK_SIZE))
 
-        text1 = font.render("Score 1: " + str(self.score_1), True, BLUE1)
-        self.display.blit(text1, [0, 0])
+        # grid
+        for x in range(0, self.w, BLOCK_SIZE):
+            for y in range(0, self.h, BLOCK_SIZE):
+                rect = pygame.Rect(x, y, BLOCK_SIZE, BLOCK_SIZE)
+                pygame.draw.rect(self.display, LINES_COLOR, rect, 1)
+
+        #pygame.draw.rect(self.display, GREY, pygame.Rect(0, 0, self.w, self.h), 1)
+
+        text1 = font.render("Score 1: " + str(self.score_1), True, LIGHT_BLUE)
+        self.display.blit(text1, [5, 0])
         text_turn = font.render("Turn: " + str(self.turn), True, WHITE)
-        self.display.blit(text_turn, [self.w//2-30, 0])
-        text2 = font.render("Score 2: " + str(self.score_2), True, GREEN1)
-        self.display.blit(text2, [self.w-90, 0])
+        self.display.blit(text_turn, [self.w//2-50, 0])
+        text2 = font.render("Score 2: " + str(self.score_2), True, LIGHT_MAGENTA)
+        self.display.blit(text2, [self.w-120, 0])
         pygame.display.flip()
 
 
