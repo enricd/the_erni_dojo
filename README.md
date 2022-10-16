@@ -6,16 +6,18 @@
 
 [![GitHub][github_badge]][github_link] 
 
-This is a project proposal created by [Enric Domingo](https://www.linkedin.com/in/e-domingo/) ([/enricd](https://github.com/enricd)) for the [ERNI](betterask.erni)'s Promotions Program of 2022.  
+This is a project proposal created by [Enric Domingo](https://www.linkedin.com/in/e-domingo/) ([/enricd](https://github.com/enricd)) for the [ERNI](https://betterask.erni)'s Promotions Program of 2022.  
 Business Owner: Alberto Martín.
 
-The concept of this project is to be a platform where Players compete by programming Agents (code functions) that play at basic 2D computer games. Then they are submitted into a pool of Agents and the system makes them play against each other in an automatic and continuous way, updating a Leaderboard after every game that is played.
+The concept of this project is to be a platform where 👩‍💻Players👨‍💻 compete by programming Agents🤖 (code functions) that Play🎮 at basic 2D computer Games👾. Then they are submitted into a pool of Agents and the system makes them play against each other in an automatic and continuous way, updating a Leaderboard after every game that is played.
 
-1. Read the Game and Coding __Instructions__
-2. __Code__ your Agent in the online editor (or in your computer if you prefer)
-3. __Test__ your Agent against itself or some other demo Agent in the Test Dojo
-4. __Submit__ your Agent to the Competition Pool of Agents
-5. Check how you are performing in the __Leaderboard__
+1. 📄 Read the Game and Coding __Instructions__
+2. 👨‍💻 __Code__ your Agent in the online editor (or in your computer if you prefer)
+3. 🧪 __Test__ your Agent against itself or some other demo Agent in the Test Dojo
+4. ⬆️ __Submit__ your Agent to the Competition Pool of Agents
+5. 🏆 After some hours, check how you are performing in the __Leaderboard__
+
+... and go back to __Code__ in order to improve your Agent, __Test__ it again, __Submit__ the new version and luckily climb some positions in the __Leaderboard__!! 🚀
 
 The current Prove of Concept is still under development and deployed for testing and evaluation. Many parts of the app could be incomplete, not properly working or containing bugs and failures. Please, report any bug or failure at:  
 ✉️ enric.domingo@betterask.erni

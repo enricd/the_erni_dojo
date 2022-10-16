@@ -65,11 +65,11 @@ def main():
     </br>""", unsafe_allow_html=True)
 
     tabs = st.tabs(["Main ✅", 
-                    "Instructions 🏗️", 
-                    "Code 🏗️",     # streamlit-ace
-                    "Test ✅",
-                    "Submit 🏗️",
-                    "Leaderboard 🏗️"
+                    "📄Instructions 🏗️", 
+                    "👨‍💻Code 🏗️",     # streamlit-ace
+                    "🧪Test ✅",
+                    "⬆️Submit 🏗️",
+                    "🏆Leaderboard 🏗️"
                     ])
 
     with tabs[0]:
