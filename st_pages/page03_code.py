@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_ace import st_ace
 
 
-def page03_code():
+def p03_code():
     
     st.header("👩‍💻 Code your agent! 👨‍💻")
 

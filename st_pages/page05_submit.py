@@ -1,5 +1,5 @@
 import streamlit as st
 
 
-def page05_submit():
+def p05_submit():
     ...

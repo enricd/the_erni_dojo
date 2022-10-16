@@ -1,5 +1,5 @@
 import streamlit as st
 
 
-def page06_leaderboard():
+def p06_leaderboard():
     ...

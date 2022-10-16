@@ -5,7 +5,7 @@ import streamlit as st
 from PIL import Image
 
 
-def page04_test():
+def p04_test():
 
     st.markdown("""
                 <style>

@@ -5,12 +5,12 @@ import sys
 from time import sleep
 from PIL import Image
 
-from st_pages import page01_main, \
-                    page02_instructions, \
-                    page03_code, \
-                    page04_test, \
-                    page05_submit, \
-                    page06_leaderboard, \
+from st_pages import p01_main, \
+                    p02_instructions, \
+                    p03_code, \
+                    p04_test, \
+                    p05_submit, \
+                    p06_leaderboard, \
                     under_construction
 
 #from src.game_engine import game_engine
@@ -64,7 +64,7 @@ def main():
     st.markdown("""<h3 style='text-align:center'> Prove of Concept </h3>
     </br>""", unsafe_allow_html=True)
 
-    tabs = st.tabs(["Main 🏗️", 
+    tabs = st.tabs(["Main ✅", 
                     "Instructions 🏗️", 
                     "Code 🏗️",     # streamlit-ace
                     "Test ✅",
@@ -73,16 +73,16 @@ def main():
                     ])
 
     with tabs[0]:
-        under_construction()
+        p01_main()
     
     with tabs[1]:
         under_construction()
 
     with tabs[2]:
-        page03_code()
+        p03_code()
 
     with tabs[3]:
-        page04_test()
+        p04_test()
 
     with tabs[4]:
         under_construction()
