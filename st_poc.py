@@ -64,12 +64,12 @@ def main():
     st.markdown("""<h3 style='text-align:center'> Prove of Concept </h3>
     </br>""", unsafe_allow_html=True)
 
-    tabs = st.tabs(["Main ✅", 
-                    "📄Instructions 🏗️", 
-                    "👨‍💻Code 🏗️",     # streamlit-ace
-                    "🧪Test ✅",
-                    "⬆️Submit 🏗️",
-                    "🏆Leaderboard 🏗️"
+    tabs = st.tabs(["🏠 Main", 
+                    "📄 Instructions", 
+                    "👨‍💻 Code",     # streamlit-ace
+                    "🧪 Test",
+                    "⬆️ Submit",
+                    "🏆 Leaderboard"
                     ])
 
     with tabs[0]:
