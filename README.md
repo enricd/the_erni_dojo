@@ -17,7 +17,7 @@ The concept of this project is to be a platform where 👩‍💻Players👨‍�
 4. ⬆️ __Submit__ your Agent to the Competition Pool of Agents
 5. 🏆 After some hours, check how you are performing in the __Leaderboard__
 
-... and go back to __Code__ in order to improve your Agent, __Test__ it again, __Submit__ the new version and luckily climb some positions in the __Leaderboard__!! 🚀
+... and go back to __Code__ in order to improve your Agent, __Test__ it again, __Submit__ the new version, and hopefully climb some positions in the __Leaderboard__!! 🚀
 
 The current Prove of Concept is still under development and deployed for testing and evaluation. Many parts of the app could be incomplete, not properly working or containing bugs and failures. Please, report any bug or failure at:  
 ✉️ enric.domingo@betterask.erni
