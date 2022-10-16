@@ -16,6 +16,8 @@ def page04_test():
                 unsafe_allow_html=True
     )
 
+    st.write("⚠️ NOTE: Logic is still not fully implemented!! ⚠️")
+
     cols = st.columns((3,1,3))
     with cols[0]:
         agent1_file = st.file_uploader("⬆️📄 Upload Player1 Agent (.py)", type=[".py"])
