@@ -4,7 +4,7 @@
 
 <br />
 
-[![GitHub][github_badge]][github_link] 
+[![GitHub][github_badge]][github_link] [![PoC_Link][the_erni_dojo_badge]][the_erni_dojo_link]
 
 This is a project proposal created by [Enric Domingo](https://www.linkedin.com/in/e-domingo/) ([/enricd](https://github.com/enricd)) for the [ERNI](https://betterask.erni)'s Promotions Program of 2022.  
 Business Owner: Alberto Martín.
@@ -27,3 +27,6 @@ It would be also great to receive any kind of feedback after using it, thanks!! 
 
 [github_badge]: https://badgen.net/badge/icon/GitHub?icon=github&color=black&label
 [github_link]: https://github.com/enricd/the_erni_dojo
+
+[the_erni_dojo_badge]: https://img.shields.io/badge/PoC%20link-The%20ERNI%20Dojo-orange
+[the_erni_dojo_link]: http://13.36.37.240:8501/
