@@ -33,7 +33,7 @@ def p04_test():
     cols1 = st.columns((3,4,3))
     with cols1[1]:
         start_status = st.empty()
-        img_placeholder = st.image(Path("./images/cyberpunk_dojo_placeholder_564.png"), use_column_width=True)
+        img_placeholder = st.image("./images/cyberpunk_dojo_placeholder_564.png", use_column_width=True)
 
         if not (agent1_file or demo_agent1_file) and not (agent2_file or demo_agent2_file):
             start_status.write("Waiting for Player1 and Player2...")
