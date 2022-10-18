@@ -29,4 +29,4 @@ It would be also great to receive any kind of feedback after using it, thanks!! 
 [github_link]: https://github.com/enricd/the_erni_dojo
 
 [the_erni_dojo_badge]: https://img.shields.io/badge/PoC%20link-The%20ERNI%20Dojo-orange
-[the_erni_dojo_link]: http://13.36.37.240:8501/
+[the_erni_dojo_link]: http://52.47.125.5:8501/
