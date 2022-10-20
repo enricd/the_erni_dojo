@@ -6,6 +6,8 @@
 
 [![GitHub][github_badge]][github_link] [![PoC_Link][the_erni_dojo_badge]][the_erni_dojo_link]
 
+NOTE: The project is still under construction 🏗️.
+
 This is a project proposal created by [Enric Domingo](https://www.linkedin.com/in/e-domingo/) ([/enricd](https://github.com/enricd)) for the [ERNI](https://betterask.erni)'s Promotions Program of 2022.  
 Business Owner: Alberto Martín.
 
